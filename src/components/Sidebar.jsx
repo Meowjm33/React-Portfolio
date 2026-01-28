@@ -1,8 +1,6 @@
-import React from 'react'
-///Vite le react import garna parcha so mandatory cha yo!!!!!
-
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { Github, Linkedin } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';//why icons
 
 const Sidebar = () => {
     return (
@@ -39,7 +37,7 @@ const Sidebar = () => {
                     <a href="https://github.com/Meowjm33" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-white rounded-full flex items-center justify-center text-black hover:bg-orange-400 transition-colors cursor-pointer">
                         <Github size={16} />
                     </a>
-                    <a href="https://www.linkedin.com/in/anushadhikari/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-white rounded-full flex items-center justify-center text-black hover:bg-orange-400 transition-colors cursor-pointer">
+                    <a href="https://www.linkedin.com/in/surangana-thapa-30009232b/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-white rounded-full flex items-center justify-center text-black hover:bg-orange-400 transition-colors cursor-pointer">
                         <Linkedin size={16} />
                     </a>
                 </div>
